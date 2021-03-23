@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Facts API</title>
+</head>
+<body>
+    <h1>Animal Facts</h1>
+    
+
+<p>Do you want to read a (mostly) factual fact about an animal? If so, you've come to the right place! Pick an animal in the drop down menu and click the submit button for a fact that will blow your mind!</p>
+
+<form action="/action_page.php">
+  <label for="animals">Choose an animal:</label>
+  <select name="animals" id="animals">
+    <option value = "empty"></option>
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+    <option value="snail">Snail</option>
+    <option value="horse">Horse</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<!--Results-->
+
+<div class="results">
+  <section></section>
+</div>
+<p>Is this where the fact will appear?</p>
+
+
+<script src = "script.js"></script>
+</body>
+</html>
+
