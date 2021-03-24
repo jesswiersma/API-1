@@ -13,6 +13,7 @@
  //
  searchForm.addEventListener('submit' , fetchAnimalFact);
  const animals =document.getElementById('animals');
+
  //Submit Event
 
 function fetchAnimalFact(e) {
@@ -27,12 +28,18 @@ function fetchAnimalFact(e) {
     .then(function(result) {
         return result.json();
     }) .then(function(json) {
-        console.log(json);
+        displayResults(json);
     });
-}
 
-function displayResults(json) {
-    while(section.firstChild) {
-        section.removeChild(section.firstChild);
+    //Display results
+    function displayResults(json) {
+      /*  while(section.firstChild) {
+            section.removeChild(section.firstChild);
+        }*/
+        console.log(json.text);
+        let fact = json.text
+        let text = document.getElementById("animalFact");
+        text.innerText = fact;
+        //section.appendChild(catFacts);
     }
-}
+    }
