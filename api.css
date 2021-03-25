@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(162, 162, 224);
+    background-color: lightyellow;
     font-family: monospace;
+    text-align: center;
     font-size: 24px;
     color: black;
 }
@@ -14,7 +15,6 @@ body {
 }
 
 #submit {
-    position: fixed;
     margin-left: 40%;
     margin-top:0.35%;
     margin-left: 2%;
