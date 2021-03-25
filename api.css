@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(162, 162, 224);
+    font-family: monospace;
+    font-size: 24px;
+    color: black;
+}
+
+#animals {
+    width: 6em;
+    height: 2em;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+#submit {
+    position: fixed;
+    margin-left: 40%;
+    margin-top:0.35%;
+    margin-left: 2%;
+    width: 6em;
+    height: 2em;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+#cat {
+    height: 8em;
+    width: 6em;
+    margin-left: 3%;
+}
+
+#dog {
+    height: 9em;
+    width: 8em;
+    
+}
+
+#snail {
+    height: 7em;
+    width: 11em;
+}
+
+#horse {
+    height: 8em;
+    border-radius: 35%;
+}
